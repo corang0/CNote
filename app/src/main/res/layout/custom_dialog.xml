@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/color0"
+            style="@style/colorBoxStyle"
+            android:background="@android:color/holo_red_light"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/color1"
+            style="@style/colorBoxStyle"
+            android:background="@android:color/holo_orange_light"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/color2"
+            style="@style/colorBoxStyle"
+            android:background="#FFEA00"
+            android:text="2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/color3"
+            style="@style/colorBoxStyle"
+            android:background="@android:color/holo_green_light"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/color4"
+            style="@style/colorBoxStyle"
+            android:background="#2962FF"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/color5"
+            style="@style/colorBoxStyle"
+            android:background="#651FFF"
+            android:text="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/color6"
+            style="@style/colorBoxStyle"
+            android:background="@android:color/black"
+            android:text="6" />
+
+        <TextView
+            android:id="@+id/color7"
+            style="@style/colorBoxStyle"
+            android:background="@android:color/darker_gray"
+            android:text="7" />
+
+        <TextView
+            android:id="@+id/color8"
+            style="@style/colorBoxStyle"
+            android:background="@android:color/white"
+            android:text="8" />
+
+    </LinearLayout>
+
+</LinearLayout>

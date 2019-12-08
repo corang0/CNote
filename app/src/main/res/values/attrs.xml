@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="LinedEditText">
+        <attr name="lineColor" format="color" />
+    </declare-styleable>
+</resources>
